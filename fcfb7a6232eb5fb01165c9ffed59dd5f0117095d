@@ -1,0 +1,1 @@
+{"jobID":"d29ee7a4-25f5-1393-cc49-999717229e10","spec":{"type":"policy","cause":{"Message":"","User":"test@test"},"spec":{"default:daemonset/helloworld":{"add":{"automated":"true"},"remove":null}}},"result":null}
