@@ -1,6 +1,8 @@
 apiVersion: apps/v1beta1
 kind: StatefulSet
 metadata:
+  annotations:
+    flux.weave.works/automated: "true"
   name: helloworld
 spec:
   serviceName: helloworld
