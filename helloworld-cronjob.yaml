@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: hello
-            image: library/busybox:1.27
+            image: busybox:1-musl
             args:
             - /bin/sh
             - -c
