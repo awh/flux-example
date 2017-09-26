@@ -5,6 +5,8 @@ metadata:
     flux.weave.works/automated: "true"
   name: helloworld
 spec:
+  updateStrategy:
+    type: RollingUpdate
   serviceName: helloworld
   replicas: 2
   template:

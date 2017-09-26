@@ -3,6 +3,8 @@ kind: DaemonSet
 metadata:
   name: helloworld
 spec:
+  updateStrategy:
+    type: RollingUpdate
   template:
     metadata:
       labels:
